@@ -1,3 +1,5 @@
+---
+
 # MP3-TAG-READER
 
 ## Description
@@ -18,4 +20,6 @@ It extracts song details like title, artist, album, and genre from MP3 metadata.
 ## How to Run
 1. Compile the program:
    ```bash
-   gcc mp3_tag_reader.c -o mp3_tag_reader
+   gcc *.c -o mp3_tag_reader
+
+---
