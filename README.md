@@ -1,10 +1,19 @@
-### Description
-A desktop tool to read and edit ID3 tags from MP3 files via command-line interface.
+## Description
+This is a C program that reads and displays ID3 tags from MP3 files.  
+It extracts song details like title, artist, album, and genre from MP3 metadata.
 
-### Features
-- Reads title, artist, album, genre
-- Command-line input
-- Optionally modify tags
+## Features
+- Reads ID3 tags in MP3 files
+- Displays song details in terminal
+- Helps understand binary file parsing
 
-### Tech Stack
-Advanced C, File handling, Pointer manipulation
+## Tech Stack
+- C Programming
+- File I/O
+- Pointer Handling
+- Command-line Arguments
+
+## How to Run
+1. Compile the program:
+   ```bash
+   gcc mp3_tag_reader.c -o mp3_tag_reader
